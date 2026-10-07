@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Untuk Kamu ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="hearts"></div>
+
+  <main class="container">
+
+    <section class="hero">
+      <p class="small">SEBUAH KEJUTAN UNTUK</p>
+
+      <h1 id="namaTampil">Kamu ❤️</h1>
+
+      <p class="subtitle">
+        Ada sesuatu yang ingin aku sampaikan...
+      </p>
+
+      <button id="mulaiBtn">Buka Kejutannya 💌</button>
+    </section>
+
+    <section id="kejutan" class="hidden">
+
+      <div class="card">
+        <h2>Untuk Kamu ❤️</h2>
+
+        <p>
+          Terima kasih sudah menjadi seseorang yang begitu berarti
+          dalam hidupku. Aku mungkin tidak selalu pandai mengungkapkan
+          perasaan, tapi aku ingin kamu tahu bahwa kehadiranmu sangat
+          berarti untukku.
+        </p>
+
+        <p>
+          Aku tidak menjanjikan semuanya akan selalu sempurna.
+          Tapi selama kita masih berjalan bersama, aku ingin terus
+          belajar menjaga, menghargai, dan membuatmu tersenyum.
+        </p>
+
+        <p class="quote">
+          "Aku tidak mencari seseorang yang sempurna,
+          aku hanya ingin seseorang yang mau tetap tinggal
+          dan berjuang bersama."
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>💑 Tentang Kita</h2>
+
+        <div class="info">
+          <div>
+            <span>Nama</span>
+            <strong id="namaInfo">-</strong>
+          </div>
+
+          <div>
+            <span>Tanggal Jadian</span>
+            <strong id="tanggalInfo">-</strong>
+          </div>
+
+          <div>
+            <span>Lama Bersama</span>
+            <strong id="lamaBersama">-</strong>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>📖 Perjalanan Kita</h2>
+
+        <div id="timeline">
+
+          <div class="timeline-item">
+            <div class="dot"></div>
+            <div>
+              <h3>Awal Kita</h3>
+              <p>
+                Semua berawal dari sebuah pertemuan yang mungkin
+                terlihat sederhana, tapi ternyata menjadi awal
+                dari sesuatu yang berarti.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="dot"></div>
+            <div>
+              <h3>Mulai Dekat</h3>
+              <p>
+                Dari obrolan kecil, bercanda bersama, sampai akhirnya
+                kita menjadi semakin dekat.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="dot"></div>
+            <div>
+              <h3>Hari Spesial</h3>
+              <p>
+                Hari ketika kita memutuskan untuk berjalan bersama
+                dan membuat cerita kita sendiri.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="dot"></div>
+            <div>
+              <h3>Sampai Sekarang ❤️</h3>
+              <p>
+                Cerita kita masih terus berjalan.
+                Dan semoga masih ada banyak halaman indah
+                yang bisa kita tulis bersama.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>📸 Kenangan Kita</h2>
+
+        <p class="hint">
+          Tambahkan foto kalian di sini ❤️
+        </p>
+
+        <label class="upload">
+          + Tambahkan Foto
+          <input type="file" id="fotoInput" accept="image/*" multiple>
+        </label>
+
+        <div id="galeri" class="gallery"></div>
+      </div>
+
+      <div class="card">
+        <h2>💌 Pesan Untukmu</h2>
+
+        <p id="pesan">
+          Kalau suatu hari kamu merasa tidak cukup baik,
+          ingatlah bahwa ada seseorang yang tetap memilih
+          untuk menghargai dan menyayangimu apa adanya.
+
+          Terima kasih sudah menjadi bagian dari ceritaku. ❤️
+        </p>
+
+        <button id="loveBtn">Klik Kalau Kamu Sayang ❤️</button>
+
+        <p id="loveResult" class="love-result"></p>
+      </div>
+
+      <footer>
+        Dibuat dengan ❤️ khusus untuk <span id="footerNama">kamu</span>
+      </footer>
+
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
